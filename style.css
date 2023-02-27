@@ -1,0 +1,112 @@
+body
+{
+    /* background-color: rgb(228, 219, 219); */
+    background-image: url("./images/gymbg.jpg");
+    background-size: cover;
+}
+
+.row1
+{
+    display: flex;
+    justify-content: center;
+}
+.box1
+{
+    /* background-color: rgb(222, 220, 220); */
+    background: linear-gradient(to bottom, #e5e5e5, #cfcfcf, #b8b8b8, #a2a2a2, #8c8c8c);
+    /* background: url("./images/boxbg.jpg");
+    background-size: cover; */
+    min-height: 300px;
+    margin: 60px;
+    /* border: 1px solid rgb(12, 2, 1); */
+    border-radius: 15px;
+    padding: 10px 0px 40px 0px;
+    font-family: 'Philosopher', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 1px 8px 5px rgba(0, 0, 0, 0.5);
+}
+#img1
+{
+    /* filter: brightness(0%); */
+}
+#hd1
+{
+    margin-top: -30px;
+    margin-bottom: 15px;
+}
+#hd2
+{
+    font-family: poppins;
+}
+.allInputs
+{
+    margin: 5px;
+    /* box-shadow: inset 7px 7px 10px 4px rgba(0,0,0,0.3); */
+    box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121,.288);
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: rgb(222, 219, 219);
+    border: 0.5px solid rgb(170, 168, 168);
+    height: 40px;
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+}
+.allInputs:focus
+{
+    margin: 5px;
+    box-shadow: inset 7px 7px 10px 4px rgba(0,0,0,0.3);
+
+    border-radius: 20px;
+    height: 41px;
+    width: 300px;
+    border: 0.5px solid black;
+    font-family: 'Poppins', sans-serif;
+}
+#passWord
+{
+    margin-left: -2px;
+}
+#showBtn
+{
+    height: 45px;
+    margin-top: 5px;
+    margin-left: -49px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+}
+#showBtn:focus
+{
+    height: 45px;
+    margin-top: 5px;
+    margin-left: -49px;
+    border-radius: 50px;
+    /* border: 1px solid rgba(0, 0, 255, 0); */
+    outline: none;
+}
+.button1
+{
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 300px;
+    transition: 0.5s;
+}
+.button1:hover
+{
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    transition: 0.5s;
+}
+#link1
+{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    /* color: black; */
+}
