@@ -12,8 +12,8 @@ body
 }
 .box1
 {
-    /* background-color: rgb(222, 220, 220); */
-    background: linear-gradient(to bottom, #e5e5e5, #cfcfcf, #b8b8b8, #a2a2a2, #8c8c8c);
+    background-color: rgb(222, 220, 220);
+    /* background: linear-gradient(to bottom, #e5e5e5, #cfcfcf, #b8b8b8, #a2a2a2, #8c8c8c); */
     /* background: url("./images/boxbg.jpg");
     background-size: cover; */
     min-height: 300px;
@@ -49,7 +49,7 @@ body
     font-size: 18px;
     background-color: rgb(222, 219, 219);
     border: 0.5px solid rgb(170, 168, 168);
-    height: 40px;
+    height: 45px;
     width: 300px;
     font-family: 'Poppins', sans-serif;
 }
@@ -59,7 +59,7 @@ body
     box-shadow: inset 7px 7px 10px 4px rgba(0,0,0,0.3);
 
     border-radius: 20px;
-    height: 41px;
+    height: 45px;
     width: 300px;
     border: 0.5px solid black;
     font-family: 'Poppins', sans-serif;

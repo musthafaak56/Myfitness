@@ -1,6 +1,6 @@
 //check //getitem //redirect to home
 function login(){
-    //1. fetch the details
+    //1. fetch the input details from login page
     membId=memId2.value;
     password=passWord2.value;
     
