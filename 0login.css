@@ -3,12 +3,17 @@ body
     background-color: rgb(225, 228, 222);
     background-image: url("./images/gymbg2.jpg");
     background-size: cover;
+    background-position: center;
+    background-color: black;
+    /* background-repeat: no-repeat; */
 }
 
 .row1
 {
     display: flex;
     justify-content: center;
+    margin: 40px 0px 40px 0px;
+
 }
 .box1
 {

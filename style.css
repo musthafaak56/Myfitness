@@ -3,6 +3,7 @@ body
     /* background-color: rgb(228, 219, 219); */
     background-image: url("./images/gymbg.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .row1
@@ -27,10 +28,10 @@ body
     justify-content: space-between;
     box-shadow: 2px 1px 8px 5px rgba(0, 0, 0, 0.5);
 }
-#img1
+/* #img1
 {
-    /* filter: brightness(0%); */
-}
+    filter: brightness(0%);
+} */
 #hd1
 {
     margin-top: -30px;
